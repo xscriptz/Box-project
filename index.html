@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Raleway:500,200,700" rel="stylesheet">
-    <style>a,h1,h2,h3,h4,h5,h6,li,p{font-family:Raleway,sans-serif;margin: 0}.resume{background-color:#1f1f1f;min-height:100vh}.resume .main{height:100%;width:700px;background-color:#fff;padding:0 25px;margin:0 auto}.resume .main .header{border-bottom:2px solid #ddd}.resume .main .header .page-title-container{margin:0 auto;text-align:center}.resume .main .header .page-title{font-size:48pt;display:inline}.resume .main .header .page-title-first{font-weight:400}.resume .main .header .page-title-last{font-weight:lighter;color: #C0C0C0}.resume .main .header .header-icons{text-align:center}.resume .main .header .header-icons .page-subhead{margin:1rem 15px;display:inline}.resume .main .category-row .category{margin-right:10px}.resume .main .category-row .category-row-title{margin:.4rem 0;color: #000000;font-weight:lighter}.resume .main .category-row .category-subtitle,.resume .main .category-row .category-title{font-size: 20px;font-family:Arial} .resume .main .category-row .category-bullets{margin-top:5px}.resume .main .category-row li,.resume .main .category-row p{font-size:x-medium;}category:last-of-type category-item:last-of-type .category,sidebar-category:last-of-type .category{border-bottom:0!important;margin-bottom:0!important}</style>
+    <style>a,h1,h2,h3,h4,h5,h6,li,p{font-family:Raleway,sans-serif;margin: 0}.resume{background-color:#1f1f1f;min-height:100vh}.resume .main{height:100%;width:700px;background-color:#fff;padding:0 25px;margin:0 auto}.resume .main .header{border-bottom:2px solid #ddd}.resume .main .header .page-title-container{margin:0 auto;text-align:center}.resume .main .header .page-title{font-size:48pt;display:inline}.resume .main .header .page-title-first{font-weight:400}.resume .main .header .page-title-last{font-weight:lighter;color: #C0C0C0}.resume .main .header .header-icons{text-align:center}.resume .main .header .header-icons .page-subhead{margin:1rem 15px;display:inline}.resume .main .category-row .category{margin-right:10px}.resume .main .category-row .category-row-title{margin:.4rem 0;color: #000000;font-weight:lighter}.resume .main .category-row .category-subtitle,.resume .main .category-row .category-title{font-size: 20px;font-family:Arial} .resume .main .category-row .category-bullets{margin-top:5px}.resume .main .category-row li,.resume .main .category-row p{font-size:x-medium}category:last-of-type category-item:last-of-type .category,sidebar-category:last-of-type .category{border-bottom:0!important;margin-bottom:0!important}</style>
     <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-animate.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-aria.min.js"></script>
@@ -27,18 +27,22 @@
                         phone="248-961-4017">
         </resume-heading>
         <resume-body>
-            <resume-column flex="30">
+            <resume-column flex="30" >
                 <sidebar-category name="EDUCATION">
                     <p>Purdue School of Science <br>Expected Dec 2016</p>
                     <p>MS in Computer Science</p>
                     <p>GPA - 3.40</p>
                 </sidebar-category>
-                <sidebar-category name="ACHIEVEMENTS">
-                    <p>Penn App Finalist Spring 2016</p>
-                    <P>Hophacks 2nd Place Spring 2016</p>
-                    <p>Dankmeme Achievement Medal 2016</p>
-                    <p>Dan Abromov's Top Follower 2016</p>
-                    <p>Advanced Regents Diploma</p>
+                <sidebar-category name="SKILLS">
+                    <p>Java • C • C++ • Python •<br>Android •
+                    MySQL</p><br>
+                    <p>Data Structures•Machine Learning•</p><br>
+                    <p>Git • SVN</p>
+                </sidebar-category>
+                <sidebar-category name="LINKS">
+                    <p>Github:// </p>
+                    <p>Linkedin://</p>
+                    <p>Twitter://</p>
                 </sidebar-category>
                 <sidebar-category name="COURSEWORK">
                     <p>Data Structures</p>
@@ -48,15 +52,12 @@
                     <p>Distributed Systems</p>
                     <p>Discrete Math</p>
                 </sidebar-category>
-                <sidebar-category name="SKILLS">
-                    <p>Java • C • C++ • Python •<br>Android •
-                    MySQL</p>
-                    <p>Data Structures•Machine Learning•</p>
-                </sidebar-category>
-                <sidebar-category name="LINKS">
-                    <p>Github:// </p>
-                    <p>Linkedin://</p>
-                    <p>Twitter://</p>
+                <sidebar-category name="ACHIEVEMENTS">
+                    <p>Penn App Finalist Spring 2016</p>
+                    <P>Hophacks 2nd Place Spring 2016</p>
+                    <p>Dankmeme Achievement Medal 2016</p>
+                    <p>Dan Abromov's Top Follower 2016</p>
+                    <p>Advanced Regents Diploma</p>
                 </sidebar-category>
                 <sidebar-category name="Other Projects">
                     <p>Github:// </p>
@@ -75,12 +76,16 @@
                         <li>Drafted Technical Specifications and prepared cost estimates.</li>
                     </ul>
                         
-                    <h2 style="font-weight:bold;font-size:19px">Deccan Brakes Pvt. Ltd. | Software Development Intern</h2>
+                    <h2 style="font-weight:bold;font-size:19px;display: inline">Deccan Brakes Pvt. Ltd.</h2>
+                    <p style="font-size: 18px;display:inline">| Software Development Intern</p>
+                    <h5 style="font-size: 15px;color: #939393">May 2014 - July 2014</h5>
                     <ul style="list-style-type: disc;margin-top: 0">
                         <li>Development and Testing of software for outsourcing using Java Product programming on Fanuc CNC.</li>
                         <li>Involved in Gathering Requirements and Defining a Suitable Workflow</li>
                     </ul>                       
-                    <h2 style="font-weight:bold;font-size:19px">Sinter Maxx | Software Intern</h2>
+                    <h2 style="font-weight:bold;font-size:19px;display: inline">Sinter Maxx</h2>
+                    <p style="font-size: 18px;display:inline">| Software Intern</p>
+                    <h5 style="font-size: 15px;color: #939393">May 2013 - July 2013</h5>
                     <ul style="list-style-type: disc;margin-top: 0">
                     <li>Product programing on Siemens S4 O/S</li>
                     <li>Creating Automated Scripts to perform data entry</li>
@@ -88,12 +93,12 @@
                     </ul>
                 </category>
                 <category name="PROJECTS">
-                    <h2 style="font-weight:bold;font-size:22px">Gomoku, Web Game Application | Software Intern</h2>
-                    <p>Designed game using HTML, CSS, JavaScript. Utilized Alpha-Beta pruning game logic. Implemented Web sockets to communicate between the clients and the server. Analyzed network protocol activities on each end game system including packet transfers. Learned socket working and establishment based on network observation.</p>
+                    <h2 style="font-weight:bold;font-size:22px">Gomoku, Web Game Application</h2>
+                    <p>Used HTML, CSS, Java, JavaScript, Utilized Alpha-Beta pruning game logic. Web sockets to communicate between the clients and the server. Analyzed network protocol activities on each end game system and packet transfers.</p>
                     <h2 style="font-weight:bold;font-size:22px">Population Data Visualization based on Space Utilization</h2>
-                    <p>Utilized D3, Google Maps API and GeoJson data to view population data. what makes this visualization different is the space utilization concept as each sub-visualization takes up some space on the map and to optimally utilize space on the map is what we achieved.</p>
+                    <p>Utilized D3, Google Maps API and GeoJson data to view population data.</p>
                     <h2 style="font-weight:bold;font-size:22px">CrossWord Puzzle – Android Game application</h2>
-                    <p>Implemented a crossword puzzle game on android using Distributed computing principles such as Java serialization, End-End design decisions.</p>
+                    <p>Implemented a crossword puzzle game on android using Distributed computing principles such as Java serialization.</p>
                 </category>
             </resume-column>
         </resume-body>
